@@ -229,17 +229,12 @@ final %>%
     # ℹ 20 more rows
 
 ## Conclusion
+Based on the generated plots and the final summary tables, we can evaluate the true performance of both assemblers. 
 
-Based on the generated plots and the final summary tables, we can
-evaluate which assembler performed better.
+Both assemblers successfully produced high-quality circular contigs, but **myloasm** outperformed metaMDBG in total numbers and diversity. 
 
-**Myloasm** produced 57 large circular contigs of High quality, while
-**metaMDBG** produced 0 High quality contigs.
+Overall, **myloasm** reconstructed a total of 64 large circular contigs (>500 kb). Out of these, the vast majority (57) were of High quality, 6 were of Medium quality, and 1 was of Low quality. It also captured a wide taxonomic diversity, with *Patescibacteriota* (29 contigs) and *Omnitrophota* (8 contigs) being the most abundant phyla.
 
-Overall, **myloasm** performed significantly better for this dataset. It
-successfully reconstructed a total of 64 large circular contigs (\>500
-kb), out of which 57 were of High quality and 6 of Medium quality.
-Furthermore, myloasm was able to capture a wide taxonomic diversity,
-reconstructing genomes from 18 different phyla (most notably
-Patescibacteriota). In contrast, metaMDBG failed to reconstruct any
-large circular contigs that would meet these criteria.
+In comparison, **metaMDBG** reconstructed a total of 36 large circular contigs (>500 kb). While it was very precise—producing 34 High quality and 2 Medium quality contigs with zero Low quality ones—its overall yield was lower. The most abundant phylum assembled by metaMDBG was also *Patescibacteriota* (16 contigs).
+
+While both tools proved highly capable of generating high-quality genomic bins, myloasm yielded approximately 67% more High-quality large circular contigs than metaMDBG, making it the more effective assembler for this specific dataset.
