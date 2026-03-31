@@ -10,9 +10,6 @@ classification.
 
 ## Data Processing
 
-First, we load the required libraries, process the FASTA headers, and
-join them with the quality and taxonomy data.
-
 ``` r
 library(tidyverse)
 ```
@@ -150,9 +147,6 @@ p2 <- final %>%
   scale_y_log10()
 p2
 ```
-
-    Warning in scale_x_log10(): log-10 transformation introduced infinite values.
-
 ![](README_files/figure-commonmark/unnamed-chunk-1-2.png)
 
 ``` r
