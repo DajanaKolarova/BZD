@@ -235,6 +235,6 @@ Both assemblers successfully produced high-quality circular contigs, but **myloa
 
 Overall, **myloasm** reconstructed a total of 64 large circular contigs (>500 kb). Out of these, the vast majority (57) were of High quality, 6 were of Medium quality, and 1 was of Low quality. It also captured a wide taxonomic diversity, with *Patescibacteriota* (29 contigs) and *Omnitrophota* (8 contigs) being the most abundant phyla.
 
-In comparison, **metaMDBG** reconstructed a total of 36 large circular contigs (>500 kb). While it was very precise—producing 34 High quality and 2 Medium quality contigs with zero Low quality ones—its overall yield was lower. The most abundant phylum assembled by metaMDBG was also *Patescibacteriota* (16 contigs).
+In comparison, **metaMDBG** reconstructed a total of 36 large circular contigs (>500 kb). While it was very precise—producing 34 High quality and 2 Medium quality contigs with zero Low quality ones—its overall yield was lower. The most abundant phylum assembled by metaMDBG was also *Patescibacteriota* (16 contigs). 
 
 While both tools proved highly capable of generating high-quality genomic bins, myloasm yielded approximately 67% more High-quality large circular contigs than metaMDBG, making it the more effective assembler for this specific dataset.
