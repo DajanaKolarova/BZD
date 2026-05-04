@@ -1,4 +1,4 @@
-# Bioinformatics Data Processing - Final Assignment
+# Bioinformatics Data Processing
 Dajana Kolářová
 
 ## Overview
