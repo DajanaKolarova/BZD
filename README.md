@@ -1,5 +1,4 @@
 # Bioinformatics Data Processing
-Dajana Kolářová
 
 ## Overview
 
